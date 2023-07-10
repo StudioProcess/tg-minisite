@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "GT America";
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  src: url("./assets/fonts/GT-America-Standard-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GT America";
+
+  font-weight: normal;
+
+  font-style: italic;
+
+  src: url("./assets/fonts/GT-America-Standard-Regular-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GT America";
+
+  font-weight: bold;
+
+  font-style: normal;
+
+  src: url("./assets/fonts/GT-America-Standard-Bold.woff2") format("woff2");
+}
+
+/* @tailwind base; */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: GT America, sans-serif;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}

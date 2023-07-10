@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "GT America";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/fonts/GT-America-Standard-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "GT America";
+    font-weight: normal;
+    font-style: italic;
+    src: url("./assets/fonts/GT-America-Standard-Regular-Italic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "GT America";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./assets/fonts/GT-America-Standard-Bold.woff2") format("woff2");
+}
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    body {
+        @apply font-sans;
+    }
+    section {
+        @apply mt-4;
+    }
+    section h2 {
+        @apply text-2xl;
+    }
+}
